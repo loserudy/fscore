@@ -1,5 +1,5 @@
 // F-SCORE Service Worker —— 离线缓存
-const CACHE = 'fscore-v1';
+const CACHE = 'fscore-v2';
 const ASSETS = ['./', './index.html', './manifest.json', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', (e) => {
